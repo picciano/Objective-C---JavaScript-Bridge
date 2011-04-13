@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40AE66F134B9E5C000E48B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40AE66E134B9E5C000E48B8 /* UIKit.framework */; };
+		E40AE671134B9E5C000E48B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40AE670134B9E5C000E48B8 /* Foundation.framework */; };
+		E40AE673134B9E5C000E48B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40AE672134B9E5C000E48B8 /* CoreGraphics.framework */; };
+		E40AE679134B9E5C000E48B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E40AE677134B9E5C000E48B8 /* InfoPlist.strings */; };
+		E40AE67C134B9E5C000E48B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40AE67B134B9E5C000E48B8 /* main.m */; };
+		E40AE67F134B9E5C000E48B8 /* AdPublishAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40AE67E134B9E5C000E48B8 /* AdPublishAppDelegate.m */; };
+		E40AE682134B9E5C000E48B8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E40AE680134B9E5C000E48B8 /* MainWindow.xib */; };
+		E40AE685134B9E5C000E48B8 /* AdPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40AE684134B9E5C000E48B8 /* AdPublishViewController.m */; };
+		E40AE688134B9E5C000E48B8 /* AdPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E40AE686134B9E5C000E48B8 /* AdPublishViewController.xib */; };
+		E40AE68F134BA034000E48B8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E40AE68E134BA034000E48B8 /* index.html */; };
+		E40AE699134BACDF000E48B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40AE698134BACDF000E48B8 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E40AE66A134B9E5C000E48B8 /* AdPublish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdPublish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40AE66E134B9E5C000E48B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E40AE670134B9E5C000E48B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E40AE672134B9E5C000E48B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E40AE676134B9E5C000E48B8 /* AdPublish-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdPublish-Info.plist"; sourceTree = "<group>"; };
+		E40AE678134B9E5C000E48B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E40AE67A134B9E5C000E48B8 /* AdPublish-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdPublish-Prefix.pch"; sourceTree = "<group>"; };
+		E40AE67B134B9E5C000E48B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E40AE67D134B9E5C000E48B8 /* AdPublishAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdPublishAppDelegate.h; sourceTree = "<group>"; };
+		E40AE67E134B9E5C000E48B8 /* AdPublishAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdPublishAppDelegate.m; sourceTree = "<group>"; };
+		E40AE681134B9E5C000E48B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E40AE683134B9E5C000E48B8 /* AdPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdPublishViewController.h; sourceTree = "<group>"; };
+		E40AE684134B9E5C000E48B8 /* AdPublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdPublishViewController.m; sourceTree = "<group>"; };
+		E40AE687134B9E5C000E48B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AdPublishViewController.xib; sourceTree = "<group>"; };
+		E40AE68E134BA034000E48B8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		E40AE698134BACDF000E48B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40AE667134B9E5C000E48B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40AE699134BACDF000E48B8 /* CoreLocation.framework in Frameworks */,
+				E40AE66F134B9E5C000E48B8 /* UIKit.framework in Frameworks */,
+				E40AE671134B9E5C000E48B8 /* Foundation.framework in Frameworks */,
+				E40AE673134B9E5C000E48B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40AE65F134B9E5B000E48B8 = {
+			isa = PBXGroup;
+			children = (
+				E40AE698134BACDF000E48B8 /* CoreLocation.framework */,
+				E40AE674134B9E5C000E48B8 /* AdPublish */,
+				E40AE66D134B9E5C000E48B8 /* Frameworks */,
+				E40AE66B134B9E5C000E48B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E40AE66B134B9E5C000E48B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40AE66A134B9E5C000E48B8 /* AdPublish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40AE66D134B9E5C000E48B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40AE66E134B9E5C000E48B8 /* UIKit.framework */,
+				E40AE670134B9E5C000E48B8 /* Foundation.framework */,
+				E40AE672134B9E5C000E48B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E40AE674134B9E5C000E48B8 /* AdPublish */ = {
+			isa = PBXGroup;
+			children = (
+				E40AE67D134B9E5C000E48B8 /* AdPublishAppDelegate.h */,
+				E40AE67E134B9E5C000E48B8 /* AdPublishAppDelegate.m */,
+				E40AE680134B9E5C000E48B8 /* MainWindow.xib */,
+				E40AE683134B9E5C000E48B8 /* AdPublishViewController.h */,
+				E40AE684134B9E5C000E48B8 /* AdPublishViewController.m */,
+				E40AE686134B9E5C000E48B8 /* AdPublishViewController.xib */,
+				E40AE675134B9E5C000E48B8 /* Supporting Files */,
+			);
+			path = AdPublish;
+			sourceTree = "<group>";
+		};
+		E40AE675134B9E5C000E48B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40AE676134B9E5C000E48B8 /* AdPublish-Info.plist */,
+				E40AE677134B9E5C000E48B8 /* InfoPlist.strings */,
+				E40AE67A134B9E5C000E48B8 /* AdPublish-Prefix.pch */,
+				E40AE67B134B9E5C000E48B8 /* main.m */,
+				E40AE68E134BA034000E48B8 /* index.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40AE669134B9E5C000E48B8 /* AdPublish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40AE68B134B9E5C000E48B8 /* Build configuration list for PBXNativeTarget "AdPublish" */;
+			buildPhases = (
+				E40AE666134B9E5C000E48B8 /* Sources */,
+				E40AE667134B9E5C000E48B8 /* Frameworks */,
+				E40AE668134B9E5C000E48B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdPublish;
+			productName = AdPublish;
+			productReference = E40AE66A134B9E5C000E48B8 /* AdPublish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40AE661134B9E5B000E48B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Crispin Porter + Bogusky";
+			};
+			buildConfigurationList = E40AE664134B9E5B000E48B8 /* Build configuration list for PBXProject "AdPublish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E40AE65F134B9E5B000E48B8;
+			productRefGroup = E40AE66B134B9E5C000E48B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40AE669134B9E5C000E48B8 /* AdPublish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40AE668134B9E5C000E48B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40AE679134B9E5C000E48B8 /* InfoPlist.strings in Resources */,
+				E40AE682134B9E5C000E48B8 /* MainWindow.xib in Resources */,
+				E40AE688134B9E5C000E48B8 /* AdPublishViewController.xib in Resources */,
+				E40AE68F134BA034000E48B8 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40AE666134B9E5C000E48B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40AE67C134B9E5C000E48B8 /* main.m in Sources */,
+				E40AE67F134B9E5C000E48B8 /* AdPublishAppDelegate.m in Sources */,
+				E40AE685134B9E5C000E48B8 /* AdPublishViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E40AE677134B9E5C000E48B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40AE678134B9E5C000E48B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E40AE680134B9E5C000E48B8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40AE681134B9E5C000E48B8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E40AE686134B9E5C000E48B8 /* AdPublishViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40AE687134B9E5C000E48B8 /* en */,
+			);
+			name = AdPublishViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40AE689134B9E5C000E48B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E40AE68A134B9E5C000E48B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E40AE68C134B9E5C000E48B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony Picciano (JSRFPF7CMJ)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdPublish/AdPublish-Prefix.pch";
+				INFOPLIST_FILE = "AdPublish/AdPublish-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2CAB74CC-A365-484C-BD99-6BCCB33DF31E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E40AE68D134B9E5C000E48B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony Picciano (JSRFPF7CMJ)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdPublish/AdPublish-Prefix.pch";
+				INFOPLIST_FILE = "AdPublish/AdPublish-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2CAB74CC-A365-484C-BD99-6BCCB33DF31E";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40AE664134B9E5B000E48B8 /* Build configuration list for PBXProject "AdPublish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40AE689134B9E5C000E48B8 /* Debug */,
+				E40AE68A134B9E5C000E48B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40AE68B134B9E5C000E48B8 /* Build configuration list for PBXNativeTarget "AdPublish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40AE68C134B9E5C000E48B8 /* Debug */,
+				E40AE68D134B9E5C000E48B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40AE661134B9E5B000E48B8 /* Project object */;
+}
